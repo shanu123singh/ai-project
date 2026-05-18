@@ -1,10 +1,8 @@
-streamlit
+streamlit==1.32.0
 openai
 python-dotenv
 tavily-python
-markdown
 requests
 beautifulsoup4
-jinja2
 langchain
 langgraph
