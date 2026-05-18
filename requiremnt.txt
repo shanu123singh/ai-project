@@ -1,8 +1,8 @@
-streamlit==1.32.0
+streamlit
 openai
 python-dotenv
-tavily-python
 requests
 beautifulsoup4
 langchain
 langgraph
+tavily-python==0.3.1
