@@ -1,0 +1,10 @@
+streamlit
+openai
+python-dotenv
+tavily-python
+markdown
+requests
+beautifulsoup4
+jinja2
+langchain
+langgraph
