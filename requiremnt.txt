@@ -1,8 +1,8 @@
 streamlit
 openai
 python-dotenv
+tavily-python
 requests
 beautifulsoup4
 langchain
 langgraph
-tavily-python

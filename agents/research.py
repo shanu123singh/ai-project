@@ -1,9 +1,12 @@
-from tools.websearch import search_ai_news
+from tavily import TavilyClient
 
-def research_news():
+def research_news(api_key):
 
-    query = "Latest AI agent news this week"
+    client = TavilyClient(api_key=api_key)
 
-    articles = search_ai_news(query)
+    response = client.search(
+        query="latest AI news",
+        max_results=7
+    )
 
-    return articles
+    return response["results"]
